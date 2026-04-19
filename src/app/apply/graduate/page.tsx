@@ -43,7 +43,7 @@ export default function GraduateAdmissions() {
           Graduate Admissions
         </h1>
         <p className="text-lg text-gray-700">
-          Advance your career with a master's or doctoral degree from IILM
+          Advance your career with a masters or doctoral degree from IILM
           University. Learn more about our graduate programs and application
           process.
         </p>
@@ -53,9 +53,7 @@ export default function GraduateAdmissions() {
 
       {/* Steps to Apply Section */}
       <section className="container mx-auto p-6">
-        <h2 className="text-2xl font-bold text-blue-900 mb-4">
-          How to Apply
-        </h2>
+        <h2 className="text-2xl font-bold text-blue-900 mb-4">How to Apply</h2>
         <ol className="list-decimal list-inside space-y-4 text-gray-700">
           <li>
             Submit your online application through our{" "}

@@ -129,7 +129,7 @@ export default function FAQPage() {
           FAQs and Common Questions
         </h1>
         <p className="text-lg text-gray-700">
-          Find answers to frequently asked questions about IILM University's
+          Find answers to frequently asked questions about IILM Universities
           admissions, financial aid, and more.
         </p>
       </header>
