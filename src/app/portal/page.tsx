@@ -11,25 +11,27 @@ export default function RoleSelection() {
   const roles = [
     {
       title: "Student",
-      description: "Access your classes, grades, schedule, and learning resources.",
+      description:
+        "Access your classes, grades, schedule, and learning resources.",
       icon: "/images/icons/student-logo.png",
       path: "student/login",
-      redirectTo: DASHBOARD_ROUTES.STUDENT
+      redirectTo: DASHBOARD_ROUTES.STUDENT,
     },
     {
       title: "Faculty",
-      description: "Manage your courses, grades, and communicate with students.",
+      description:
+        "Manage your courses, grades, and communicate with students.",
       icon: "/images/icons/teacher-logo.png",
       path: "faculty/login",
-      redirectTo: DASHBOARD_ROUTES.FACULTY
+      redirectTo: DASHBOARD_ROUTES.FACULTY,
     },
     {
       title: "Admin",
       description: "Oversee university operations and manage system settings.",
       icon: "/images/icons/admin-logo.png",
       path: "admin/login",
-      redirectTo: DASHBOARD_ROUTES.ADMIN
-    }
+      redirectTo: DASHBOARD_ROUTES.ADMIN,
+    },
   ];
 
   const handleRoleSelection = (path: string) => {
@@ -40,12 +42,12 @@ export default function RoleSelection() {
     <div className="min-h-screen flex items-center justify-center">
       <div className="w-4/5 md:w-3/5 bg-white shadow-xl rounded-xl p-8">
         <h1 className="text-4xl font-bold text-blue-900 text-center mb-8">
-          Welcome to GU Portal
+          Welcome to IILM Uni Portal
         </h1>
         <p className="text-gray-600 text-center mb-12">
           Please select your role to continue
         </p>
-        
+
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {roles.map((role, index) => (
             <div
@@ -77,4 +79,4 @@ export default function RoleSelection() {
       </div>
     </div>
   );
-} 
+}
