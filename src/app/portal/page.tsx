@@ -42,7 +42,7 @@ export default function RoleSelection() {
     <div className="min-h-screen flex items-center justify-center">
       <div className="w-4/5 md:w-3/5 bg-white shadow-xl rounded-xl p-8">
         <h1 className="text-4xl font-bold text-blue-900 text-center mb-8">
-          Welcome to IILM Uni Portal
+          Welcome to IILM University
         </h1>
         <p className="text-gray-600 text-center mb-12">
           Please select your role to continue
